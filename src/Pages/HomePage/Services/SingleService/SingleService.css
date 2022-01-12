@@ -1,0 +1,15 @@
+.serviceAfter:before {
+  content: "  ";
+  display: block;
+  height: 3px;
+  border: 2px solid red;
+  /* background: aquamarine; */
+  width: 25%;
+  margin: 1em auto 0.5em;
+}
+.service-card :hover {
+  background-color: white;
+}
+.CardContent:hover {
+  background: white;
+}
