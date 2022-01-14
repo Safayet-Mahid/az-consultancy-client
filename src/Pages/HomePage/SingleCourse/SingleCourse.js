@@ -7,7 +7,7 @@ const SingleCourse = ({ course }) => {
     return (
         <Grid item xs={12} md={6}  >
             <Grid container style={{ display: "flex", padding: "2em", borderRadius: "5px", backgroundColor: "white", textAlign: "left", boxShadow: "0 0 0 0.4px 4px 30px rgb(0 0 0 / 8%)" }}>
-                <Grid item xs={12} md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", flex: 1, borderRight: "1px solid lightgray" }}>
+                <Grid item xs={12} md={6} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", flex: 1, borderRight: "1px solid lightnpm startgray" }}>
                     <Typography variant='h6' component='div' sx={{
                         fontWeight: 600,
                         fontSize: "2em"
