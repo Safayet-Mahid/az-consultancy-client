@@ -1,0 +1,89 @@
+.testimonial img {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* background: #eee; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.testimonial {
+  /* display: flex;
+  flex-direction: column; */
+  width: 40%;
+  margin: 0 auto 0;
+  /* border: 1px solid red; */
+}
+/* .testimonial ::before {
+  content: "\f10d";
+} */
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 5% 0 5em;
+  /* background-image: url("https://html.rovadex.com/html-informex/assets/img/effect-slide.svg"); */
+  background-image: url("https://html.rovadex.com/html-informex/assets/img/bg-team-about.svg");
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  opacity: 1;
+  background: rgba(83, 204, 93, 0.26);
+  border: 2px solid green;
+}
+
+.swiper-pagination-bullet-active {
+  color: green;
+}

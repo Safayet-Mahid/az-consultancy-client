@@ -5,6 +5,7 @@
   background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 40%);
   /* background-image: linear-gradient(334.93deg, #23033c -57.5%, #2ccfbb 87.13%); */
   overflow: hidden;
+  /* background-repeat: repeat; */
   /* height: 350px; */
 }
 .ocean {

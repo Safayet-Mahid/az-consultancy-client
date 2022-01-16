@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import InfoBanner from '../InfoBanner/InfoBanner';
 import Services from '../Services/Services';
 import TeamMember from '../TeamMember/TeamMember';
+import Testimonial from '../Testmonial/Testimonial';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <TeamMember></TeamMember>
             <Courses></Courses>
             <InfoBanner></InfoBanner>
+            <Testimonial></Testimonial>
         </div>
     );
 };
