@@ -1,7 +1,9 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import Navigation from '../../Shared/Navigation/Navigation';
 import About from '../About/About';
 import Courses from '../Courses/Courses';
+import Gallery from '../Gallery/Gallery';
 import Header from '../Header/Header';
 import InfoBanner from '../InfoBanner/InfoBanner';
 import Services from '../Services/Services';
@@ -20,6 +22,8 @@ const Home = () => {
             <Courses></Courses>
             <InfoBanner></InfoBanner>
             <Testimonial></Testimonial>
+            <Gallery></Gallery>
+            <Footer></Footer>
         </div>
     );
 };
